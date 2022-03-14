@@ -9,13 +9,4 @@ public enum ContractType {
     ContractType(String contractType) {
         this.contractType = contractType;
     }
-
-    public static ContractType valueOfCode(String contractType) {
-        for (ContractType e : values()) {
-            if (e.contractType.equals(contractType)) {
-                return e;
-            }
-        }
-        return null;
-    }
 }
