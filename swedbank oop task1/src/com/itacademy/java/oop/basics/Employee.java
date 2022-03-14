@@ -62,7 +62,8 @@ public class Employee {
         return position;
     }
 
-    public String getEmployeeData() {
+    @Override
+    public String toString() {
         return "Employee{" +
                 "name = '" + name + '\'' +
                 ", surname = '" + surname + '\'' +
